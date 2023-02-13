@@ -2,6 +2,7 @@ package com.sakthi.properties.inheritance;
 
 public class Box {
     double length, height, width;
+    double weight;
 
     Box() {
         this.height = 5;
@@ -10,6 +11,7 @@ public class Box {
     }
 
     Box (double length,double height, double width) {
+        System.out.println("This is parent Box class constructor");
         this.length = length;
         this.height  = height;
         this.width = width;
